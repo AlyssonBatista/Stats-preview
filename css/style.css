@@ -1,55 +1,18 @@
 @charset "UTF-8";
-body {
+ 
+body{
     background-color: hsl(233, 47%, 7%);
-    align-items: center;
 }
-.card {
-    background-color: hsl(244, 38%, 16%);
-    margin-right: 160px;
-    margin-left: 160px;
-    margin-top: 90px;
-    margin-bottom: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1000px; 
-    border-radius: 10px;
-}
-.card1 {
-    display: flex;
-    margin: auto;
-    
-}
-img {
-    width: 600px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    
-}
-
-.texto {
-    display: block;
-    margin: 40px;
-    padding: 40px;
-}
-
-.dados {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
 h1 {
     color: white;
-    
+    font-family: 'Inter', sans-serif;
 }
 h2 {
     color: white; 
+    font-family: 'Inter', sans-serif;
     
 }
 p {
     color: rgb(148, 146, 143); 
-    font-size: 15px; 
-     
+    font-family: 'Inter', sans-serif;
 }
