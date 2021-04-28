@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.cardPrincipal {
+    background-color: hsl(233, 47%, 7%);
+   display: flex;
+   align-items: center;
+   padding: 10%;
+}
+  
+.dados {
+    
+    display: flex;
+    align-items: center;
+    
+}
