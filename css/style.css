@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .card{
     align-items: center;
     
@@ -60,4 +61,18 @@ h2 {
 p {
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 600px){
+    body {
+        background-color: green;
+    }
+    .card1{
+        display: block;
+
+    }
+    .dados {
+        display: flex;
+    }
+
 }
