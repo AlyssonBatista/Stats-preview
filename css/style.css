@@ -69,10 +69,12 @@ p {
     }
     .card1{
         display: block;
+        
 
     }
     .dados {
         display: flex;
+
     }
 
 }
