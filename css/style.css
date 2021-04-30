@@ -64,17 +64,18 @@ p {
 }
 
 @media (max-width: 600px){
-    body {
-        background-color: green;
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    .texto {width: 85%}
+    .filter {float: none; width: 95%}
+    .card{
+        float: none;
     }
-    .card1{
-        display: block;
-        
-
+    
+    #globo{
+        width: 100%;
+        margin-left: 0;
     }
-    .dados {
-        display: flex;
-
-    }
-
+    
+    ul.topnav li a.active {margin-left: 0;}
 }
